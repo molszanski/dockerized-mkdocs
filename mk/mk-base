@@ -1,0 +1,5 @@
+FROM python:3.6-alpine
+MAINTAINER Mikolaj Olszanski <mikolaj@polygoncast.com>
+
+RUN pip install mkdocs
+

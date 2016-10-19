@@ -1,0 +1,10 @@
+FROM molszanski/mkdocs-builder-base
+
+VOLUME /src
+WORKDIR /src
+
+
+VOLUME /docs
+EXPOSE 8000
+
+ENTRYPOINT ["mkdocs"]
